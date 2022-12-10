@@ -1,0 +1,88 @@
+doctype html 
+html
+    head   
+        
+    style  
+        include ../static/style.css
+  
+    body 
+       
+    nav#navbar
+        ul
+           
+            div#logo
+                img(src="/static/img/LOGOFORWEB.png")    
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+        
+    section#introSection
+        div Welcome to Our gym Website
+        div.small Every beautiful body deserves to strengthen. 
+    div#price1 
+        h2 Planes
+    section#priceSection
+       
+        div.columns
+            ul.price
+                li.header Basic
+                li.grey $ 9.99 / year
+                li 10 hours training
+                li 3 trainers
+                li free proten drink
+                li regular monitoring 
+                li.grey #[a.button(href="/") Contact Us]
+
+        div.columns
+            ul.price
+                li.header Intermediate
+                li.grey $ 99.9 / year
+                li 10 hours training
+                li 3 trainers
+                li free proten drink
+                li regular monitoring 
+                li.grey #[a.button(href="/") Contact Us]
+
+        div.columns
+            ul.price
+                li.header Advance
+                li.grey $ 139 / year
+                li 10 hours training
+                li 3 trainers
+                li free proten drink
+                li regular monitoring 
+                li.grey #[a.button(href="/") Contact Us]
+    #price1 
+        h2 Our Mission
+    section#missionSection
+        
+        div.card
+            h3 Fitness Training
+            div.card-box
+                div.card-img
+                    img(src="/static/img/gym.jpg")
+            div.card-content
+                 p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure mollitia sapiente consectetur nostrum perspiciatis. Placeat optio at fuga incidunt. Harum optio quis eos laborum hic quo delectus. Doloribus, nam corrupti!
+
+        div.card
+            h3 Work outs
+            div.card-box
+                div.card-img
+                    img(src="/static/img/gym.jpg")
+            div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum quae unde iste sit neque iure corporis mollitia at rerum aperiam, ab architecto molestiae, doloribus voluptate sequi saepe incidunt ea? Sunt inventore similique velit.
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/gym.jpg")
+
+            div.card-content
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit velit necessitatibus molestiae atque non iusto, voluptate eveniet odio hic ipsum illo beatae saepe placeat quaerat sapiente quasi dolorem, numquam minima sint ad sunt sed.
+    div.footer 
+        p @copyright
+        script 
+           include ../static/index.js 

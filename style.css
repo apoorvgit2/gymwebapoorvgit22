@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+.footer{
+  display: flex;
+  position: relative;
+  bottom: 0%;
+  height: 22px;
+  background-color:black;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer p{
+  color: white;
+ 
+}
+#navbar{
+    background-color:#243de0;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+}
+#navbar li a:hover{
+    color: rgb(255, 213, 4);  
+}
+#logo{
+  display: flex;
+  height: 25px;
+  width: auto;
+  margin-top: 0px;
+ 
+  cursor: pointer;
+}
+#introSection{
+    color: rgb(208, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/img/pexels-victor-freitas-841130.jpg") ;
+    height: 425px;
+    background-color: rgb(255, 8, 8);
+}
+#introSection div.small{
+    font-size: 52px;
+    margin-top: 22px;
+    padding-top: 48px;
+
+    color: rgb(187, 229, 19);
+}
+#priceSection{
+    height: 600px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    background-color: #fbd6d6c7;
+}
+#priceSection h2{
+    font-size: 42px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 2, 2);
+}
+#price1{
+    background-color: #243de0;
+    
+    height: 40px;
+}
+#price1 h2{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+#missionSection{
+    height: 600px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    background-color: #fbd6d63c;
+
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 12px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+    height: 422px;
+    border: 2px solid rgba(230, 77, 12, 0.862);
+    border-radius: 25px;
+    margin: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  background-color: aquamarine;
+}
+.card-box{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 131px;
+    width: auto;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .columns:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .button:hover {
+    background-color: yellowgreen;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
